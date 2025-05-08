@@ -1,0 +1,29 @@
+Mahasiswa Tersedia:
+<|Andi|Informatika|10 jam|>
+<|Budi|Sistem Informasi|12 jam|>
+
+Total Durasi Tugas Praktikum: 13 jam
+{[T001|3 jam]}
+{[T002|5 jam]}
+{[T004|5 jam]}
+
+Total Durasi Tugas Teori: 2 jam
+{[T003|2 jam]}
+
+- Tahap 1 Penjadwalan!
+Prioritaskan Tugas Praktikum!
+Mahasiswa Terpilih: <|Andi|Informatika|10 jam|>
+Tugas Dijadwalkan:
+{[T001|3 jam]}
+{[T002|5 jam]}
+- Tahap 2 Penjadwalan!
+Prioritaskan Tugas Praktikum!
+Mahasiswa Terpilih: <|Budi|Sistem Informasi|12 jam|>
+Tugas Dijadwalkan:
+{[T004|5 jam]}
+- Tahap 3 Penjadwalan!
+Prioritaskan Tugas Teori!
+Mahasiswa Terpilih: <|Andi|Informatika|2 jam|>
+Tugas Dijadwalkan:
+{[T003|2 jam]}
+Semua tugas telah dijadwalkan!

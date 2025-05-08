@@ -1,0 +1,23 @@
+2
+Brenda
+Informatika
+10
+Lusi
+Sistem Informasi
+12
+3
+T001
+Tugas 1
+Praktikum
+3
+5
+T003
+Tugas 3
+Praktikum
+5
+4
+T006
+Tugas 6
+Praktikum
+4
+4

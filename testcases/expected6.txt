@@ -1,0 +1,29 @@
+Mahasiswa Tersedia:
+<|Dika|Informatika|15 jam|>
+
+Total Durasi Tugas Praktikum: 12 jam
+{[T001|3 jam]}
+{[T003|5 jam]}
+{[T006|4 jam]}
+
+Total Durasi Tugas Teori: 5 jam
+{[T002|2 jam]}
+{[T005|2 jam]}
+{[T004|1 jam]}
+
+- Tahap 1 Penjadwalan!
+Prioritaskan Tugas Praktikum!
+Mahasiswa Terpilih: <|Dika|Informatika|15 jam|>
+Tugas Dijadwalkan:
+{[T001|3 jam]}
+{[T003|5 jam]}
+{[T006|4 jam]}
+- Tahap 2 Penjadwalan!
+Prioritaskan Tugas Teori!
+Mahasiswa Terpilih: <|Dika|Informatika|3 jam|>
+Tugas Dijadwalkan:
+{[T002|2 jam]}
+{[T004|1 jam]}
+- Tahap 3 Penjadwalan!
+Prioritaskan Tugas Teori!
+Tidak ada mahasiswa tersedia untuk penjadwalan!

@@ -1,0 +1,35 @@
+1
+Dika
+Informatika
+15
+6
+T001
+UAS Alstrudat
+Praktikum
+3
+5
+T002
+Makalah Pancasila
+Teori
+2
+3
+T003
+Project Java
+Praktikum
+5
+4
+T004
+Tugas UI/UX
+Teori
+1
+2
+T005
+Rangkuman Jarkom
+Teori
+2
+3
+T006
+Soal Coding
+Praktikum
+4
+4

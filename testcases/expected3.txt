@@ -1,0 +1,24 @@
+Mahasiswa Tersedia:
+<|Grace|Informatika|10 jam|>
+<|Putri|Sistem Informasi|12 jam|>
+
+Total Durasi Tugas Praktikum: 12 jam
+{[T001|3 jam]}
+{[T003|5 jam]}
+{[T006|4 jam]}
+
+Total Durasi Tugas Teori: 0 jam
+- Tidak ada data yang tersedia!
+
+- Tahap 1 Penjadwalan!
+Prioritaskan Tugas Praktikum!
+Mahasiswa Terpilih: <|Grace|Informatika|10 jam|>
+Tugas Dijadwalkan:
+{[T001|3 jam]}
+{[T003|5 jam]}
+- Tahap 2 Penjadwalan!
+Prioritaskan Tugas Praktikum!
+Mahasiswa Terpilih: <|Putri|Sistem Informasi|12 jam|>
+Tugas Dijadwalkan:
+{[T006|4 jam]}
+Semua tugas telah dijadwalkan!

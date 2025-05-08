@@ -1,0 +1,28 @@
+2
+Andi
+Informatika
+10
+Grace
+Sistem Informasi
+12
+4
+T001
+Tugas 1
+Praktikum
+3
+5
+T002
+Tugas 2
+Praktikum
+5
+4
+T003
+Tugas 3
+Teori
+2
+3
+T004
+Tugas 4
+Praktikum
+5
+2
