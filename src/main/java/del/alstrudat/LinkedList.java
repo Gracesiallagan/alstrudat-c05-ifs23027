@@ -19,7 +19,6 @@ public class LinkedList<T> {
   }
 
   public LinkedList(T value) {
-    // TODO: Buat Node baru dan atur head, tail, dan length
     Node newNode = new Node(value);
     head = newNode;
     tail = newNode;
@@ -31,10 +30,10 @@ public class LinkedList<T> {
       System.out.println("- Tidak ada data yang tersedia!");
       return;
     }
+
     Node temp = head;
     while (temp != null) {
       System.out.println(temp.value);
-      // TODO: Pindahkan temp ke node berikutnya
       temp = temp.next;
     }
   }
@@ -42,11 +41,9 @@ public class LinkedList<T> {
   public void append(T value) {
     Node newNode = new Node(value);
     if (length == 0) {
-      // TODO: Atur head dan tail saat linked list kosong
       head = newNode;
       tail = newNode;
     } else {
-      // TODO: Hubungkan tail saat ini ke newNode dan update tail
       tail.next = newNode;
       tail = newNode;
     }
@@ -59,7 +56,6 @@ public class LinkedList<T> {
     Node temp = head;
     Node pre = head;
     while (temp.next != null) {
-      // TODO: Geser pre dan temp
       pre = temp;
       temp = temp.next;
     }
@@ -79,7 +75,6 @@ public class LinkedList<T> {
       head = newNode;
       tail = newNode;
     } else {
-      // TODO: Set newNode.next ke head dan update head
       newNode.next = head;
       head = newNode;
     }
@@ -104,7 +99,6 @@ public class LinkedList<T> {
       return null;
     Node temp = head;
     for (int i = 0; i < index; i++) {
-      // TODO: Geser temp ke node berikutnya
       temp = temp.next;
     }
     return temp;
@@ -113,7 +107,6 @@ public class LinkedList<T> {
   public boolean set(int index, T value) {
     Node temp = get(index);
     if (temp != null) {
-      // TODO: Ganti value dari node temp
       temp.value = value;
       return true;
     }
@@ -133,7 +126,6 @@ public class LinkedList<T> {
     }
     Node newNode = new Node(value);
     Node temp = get(index - 1);
-    // TODO: Hubungkan newNode ke temp.next dan temp ke newNode
     newNode.next = temp.next;
     temp.next = newNode;
     length++;
@@ -147,9 +139,9 @@ public class LinkedList<T> {
       return removeFirst();
     if (index == length - 1)
       return removeLast();
+
     Node prev = get(index - 1);
     Node temp = prev.next;
-    // TODO: Hapus temp dari linked list
     prev.next = temp.next;
     temp.next = null;
     length--;
@@ -174,7 +166,6 @@ public class LinkedList<T> {
     Node temp = head;
     while (temp != null) {
       Node duplicateNode = new Node(temp.value);
-      // TODO: Sisipkan duplicateNode setelah temp
       duplicateNode.next = temp.next;
       temp.next = duplicateNode;
       temp = duplicateNode.next;
